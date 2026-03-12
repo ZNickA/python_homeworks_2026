@@ -28,8 +28,8 @@ warn_return_any = true
 warn_unused_ignores = true
 exclude = [".*\\.ipynb"]
 
-[tool.ty]
-exclude = ["*.ipynb"]
+[tool.ty.src]
+include = ["**/*.py"]
 
 [tool.pyrefly]
 project-includes = ["**/*.py"]
